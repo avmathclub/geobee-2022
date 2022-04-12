@@ -1,0 +1,9 @@
+problem:  In $\triangle ABC$ with $AB=AC$, point $D$ is the midpoint of $BC$. Points $P$ and $Q$ are on segments $AC$ and $AD$ such that $CD=DP=PQ=QA$. What is the measure of $\angle BPD$?
+answer: 47
+author: Dennis Chen
+solutions:
+  - text: |-
+      Note that $\angle QPA=\angle DAP$ and $\angle DPC=\angle DCA$, so $\angle QPA+\angle DAP=\angle DPC+\angle DCA=90^{\circ}$ as $\triangle ADC$ is right with $\angle D=90^{\circ}$, and $\angle QPD=90^{\circ}$ as there are $180$ degrees in a straight line.
+
+      Then note that $\angle DPQ=45^{\circ}$ and $\angle BDP=\angle BDA+\angle ADP=135^{\circ}$. The latter implies that $\angle BPD=\frac{45}{2}^{\circ}$.
+    author: Dennis Chen
