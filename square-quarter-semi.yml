@@ -34,7 +34,7 @@ solutions:
 
       Now note $HO=2\cdot\frac{48}{5}-12=\frac{36}{5}$, so $BH=12-\frac{36}{5}=\frac{24}{5}$. Note that as $\triangle ABN\sim\triangle PHN$,
       \[\frac{HN}{\frac{48}{5}}=\frac{HN+\frac{24}{5}}{24},\]
-      implying that $HN=\frac{16}{5}$ and $BN=BH+HN=\frac{24}{5}+\frac{16}{5}=\ansbold{8}$.
+      implying that $HN=\frac{16}{5}$ and $BN=BH+HN=\frac{24}{5}+\frac{16}{5}=8$.
       \begin{center}
         \begin{asy}
           size(4cm);
