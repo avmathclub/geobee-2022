@@ -1,0 +1,6 @@
+problem: Construct a square $ABCD$. Let $E$ be the midpoint of $\overline{AB}$, $F$ be the midpoint of $\overline{BC}$, $G$ be the midpoint of $\overline{CD}$, and $H$ be the midpoint of $\overline{DA}$. Given that the area of $EFGH$ is $20$, what is the area of square $ABCD$?
+author: Kaden Nguyen
+answer: 40
+solutions:
+  - text: We can draw lines $\overline{EG}$ and $\overline{FH}$. It is clear that the area of $EFGH$ is the same as the area in $ABCD$ that is outside of $EFGH$. This means that the area of $ABCD$ is twice that of $EFGH$. The area of $ABCD$ is thus $20\cdot 2=40$.
+    author: Kaden Nguyen
