@@ -1,4 +1,15 @@
-problem: A square is inscribed in a semicircle of radius $1$ such that one of its sides lays entirely on its diameter. What is the area of this square?
-# Add a diagram
+problem: |-
+  A square is inscribed in a semicircle of radius $1$ such that one of its sides lays entirely on its diameter. What is the area of this square?
+  \begin{center}
+  \begin{asy}
+  size(5cm);
+  draw(arc((0,0), (1,0), (-1,0)));
+  draw((1/sqrt(5),0)--(1/sqrt(5), 2/sqrt(5))--(-1/sqrt(5), 2/sqrt(5))--(-1/sqrt(5),0));
+  draw((-1,0)--(1,0));
+  \end{asy}
+  \end{center}
 author: Dennis Chen
 answer: \frac{4}{5}
+solutions:
+  - text: Let the center of the circle be $O$, a vertex on the diameter be $A$, and the vertex on the circle directly above be $B$. Then $OA^2+AB^2=OB^2$, and by definition, $AB=2OA$ and $OB=1$. Thus $AB=\frac{2}{\sqrt{5}}$ and the area is $\frac{4}{5}$.
+    author: Dennis Chen
