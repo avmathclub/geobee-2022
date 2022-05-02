@@ -1,4 +1,4 @@
-problem: Let $\triangle ABC$ be a triangle such that $\angle A = 60^{\circ}$, $\angle B = 75^{\circ}$, and $\angle C = 45^{\circ}$ such that the circumcircle of $\triangle ABC$ has circumference 16. Let $l$ be the locus of all points $P$ such that $P$ is in the interior of $\triangle ABC$ and $\angle ABP + \angle ACP = 60{\circ}$. What is the length of $l$?
+problem: Let $\triangle ABC$ be a triangle such that $\angle A = 60^{\circ}$, $\angle B = 75^{\circ}$, and $\angle C = 45^{\circ}$ such that the circumcircle of $\triangle ABC$ has circumference 16. Let $l$ be the locus of all points $P$ such that $P$ is in the interior of $\triangle ABC$ and $\angle ABP + \angle ACP = 60^{\circ}$. What is the length of $l$?
 author: Kaden Nguyen
 answer: 4
 solutions:
