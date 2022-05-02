@@ -1,0 +1,14 @@
+template: geobee
+vars:
+  year: 2022
+problems:
+  - squares
+  - square-in-semicircle
+  - prisms
+  - aime-ripoff
+  - anthony-the-ant
+  - square-quarter-semi
+  - equi-triangle-quad
+  - parallelogram-bisector
+  - excircle
+  - angle-locus
