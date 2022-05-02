@@ -1,5 +1,5 @@
 problem: |-
-  Anthony the ant is on a vertex $A$ of the cube with side length $1$ inch. He can only walk on the surface of the cube. Anthony wants to go to vertex $B$ of the cube, but he must touch the edge of the cube furthest from $AB$ first. What is the smallest distance (in inches) that Anthony must travel to complete this journey?
+  Anthony the ant is on a vertex $A$ of the cube with side length $1$ inch. He can only walk on the surface of the cube. Anthony wants to go to vertex $B$ of the cube one inch away from $A$, but he must touch the edge of the cube furthest from $AB$ first. What is the smallest distance (in inches) that Anthony must travel to complete this journey?
 author: Kaden Nguyen
 answer: \sqrt{17}
 solutions:
