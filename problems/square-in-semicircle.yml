@@ -1,5 +1,5 @@
 problem: |-
-  A square is inscribed in a semicircle of radius $1$ such that one of its sides lays entirely on its diameter. What is the area of this square?
+  A square is inscribed in a semicircle of radius $1$ such that one of its sides lays entirely on its diameter. If the area of this square can be expressed as $\frac{m}{n}$ for relatively prime positive integers $m$ and $n$, find $m+n$.
   \begin{center}
   \begin{asy}
   size(5cm);
@@ -9,7 +9,7 @@ problem: |-
   \end{asy}
   \end{center}
 author: Dennis Chen
-answer: \frac{4}{5}
+answer: 9
 solutions:
-  - text: Let the center of the circle be $O$, a vertex on the diameter be $A$, and the vertex on the circle directly above be $B$. Then $OA^2+AB^2=OB^2$, and by definition, $AB=2OA$ and $OB=1$. Thus $AB=\frac{2}{\sqrt{5}}$ and the area is $\frac{4}{5}$.
+  - text: Let the center of the circle be $O$, a vertex on the diameter be $A$, and the vertex on the circle directly above be $B$. Then $OA^2+AB^2=OB^2$, and by definition, $AB=2OA$ and $OB=1$. Thus $AB=\frac{2}{\sqrt{5}}$ and the area is $\frac{4}{5}$, yielding an answer of $4+5=9$.
     author: Dennis Chen
