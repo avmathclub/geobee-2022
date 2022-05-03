@@ -1,4 +1,20 @@
-problem: Construct a square $ABCD$. Let $E$ be the midpoint of $\overline{AB}$, $F$ be the midpoint of $\overline{BC}$, $G$ be the midpoint of $\overline{CD}$, and $H$ be the midpoint of $\overline{DA}$. Given that the area of $EFGH$ is $20$, what is the area of square $ABCD$?
+problem: |-
+  Construct a square $ABCD$. Let $E$ be the midpoint of $\overline{AB}$, $F$ be the midpoint of $\overline{BC}$, $G$ be the midpoint of $\overline{CD}$, and $H$ be the midpoint of $\overline{DA}$. Given that the area of $EFGH$ is $20$, what is the area of square $ABCD$?
+  \begin{center}
+    \begin{asy}
+      size(4cm);
+      draw((0,0)--(0,10)--(10,10)--(10,0)--cycle);
+      draw((0,5)--(5,10)--(10,5)--(5,0)--cycle);
+      label("$A$",(0,0),SW);
+      label("$B$",(10,0),SE);
+      label("$C$",(10,10),NE);
+      label("$D$",(0,10),NW);
+      label("$E$",(5,0),S);
+      label("$F$",(10,5),E);
+      label("G",(5,10),N);
+      label("H",(0,5),W);
+    \end{asy}
+  \end{center}
 author: Kaden Nguyen
 answer: 40
 solutions:
