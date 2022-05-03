@@ -1,6 +1,6 @@
-problem: Consider parallelogram $ABCD$ with $AB=10$ and $BC=11$. Let the angle bisector of $\angle DAB$ intersect $BC$ at $P$ and $CD$ at $Q$. If the lines through $P$ and $Q$ parallel to $BD$ intersect line $AB$ at points $X$ and $Y$, what is the length of segment $XY$? Express your answer as a common fraction.
+problem: Consider parallelogram $ABCD$ with $AB=10$ and $BC=11$. Let the angle bisector of $\angle DAB$ intersect $BC$ at $P$ and $CD$ at $Q$. If the lines through $P$ and $Q$ parallel to $BD$ intersect line $AB$ at points $X$ and $Y$, then the length of segment $XY$ can be expressed as $\frac{m}{n}$ for relatively prime positive integers $m$ and $n$. Find $m+n$.
 author: Dennis Chen
-answer: \frac{21}{10}
+answer: 31
 solutions:
   - text: |-
       This problem is somewhat tricky because there's a lot going on, so we state the important pairs of similar triangles upfront.
@@ -12,5 +12,6 @@ solutions:
         \triangle XAP & \sim \triangle YAQ.
       \end{align*}
       By the first pair of similar triangles, $XB=AB\cdot\frac{10}{11}=\frac{100}{11}$. The second pair of similar triangles gives us $AP=10PQ$, and the third pair of similar triangles gives us $\frac{AY}{AX}=\frac{AQ}{AP}=\frac{11}{10}$. Thus
-      \[XY=AY-AX=\frac{11}{10}AX-AX=\frac{1}{10}AX = \frac{1}{10}(10+\frac{100}{11})=\frac{21}{10}.\]
+      \[XY=AY-AX=\frac{11}{10}AX-AX=\frac{1}{10}AX = \frac{1}{10}(10+\frac{100}{11})=\frac{21}{10},\]
+      and our answer is $21+10=31$.
     author: Dennis Chen
