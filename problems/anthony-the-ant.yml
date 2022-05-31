@@ -1,7 +1,10 @@
 problem: |-
   Anthony the ant is on a vertex $A$ of the cube with side length $1$ inch. $B$ is another vertex on the cube such that $B$ is $1$ inch away from $A$. He can only walk on the surface of the cube. Let the edge of the cube furthest away from $AB$ be colored red. Anthony wants to go to $B$ from $A$ but he must touch the red edge first. If the smallest distance (in inches) that Anthony must travel to complete this journey is $d$, find $d^2$.
 author: Kaden Nguyen
-answer: 17
+answer: 13
 solutions:
-  - text: It will be much easier to do this problem if we could turn it into two dimensions. For convenience, we refer to the edge furthest from $AB$ as $CD$. Imagine $CD$ and $AB$ on the same flat plane, achieved by flattening about one of the edges parallel to $AB$ and $CD$. We can simplify this problem by considering two $1\times 1$ squares that share an edge. We label the bottom right vertex to be $A$, the bottom left vertex to be $B$, and color the top edge of the top square red. The smallest distance it takes for Anthony to go from $A$ to the red line to $B$ can be calculated by reflecting our two squares over the red line we made. We label $B'$ to be the reflection of $B$ across this red line. We see that any path from $A$ to the red line to $B$ can be reflected over the red line to create a path from $A$ to $B'$. Therefore, the smallest distance from $A$ to the red line to $B$ is the same as calculating the smallest distance from $A$ to $B'$. The smallest distance between $A$ to $B'$ is just a line. By the Pythagorean Theorem, we have our answer $$d = \sqrt{1^2 + 4^2}$$ $$d^2 = \sqrt{17}.$$
-    author: Kaden Nguyen
+  - text: |-
+      Let $A=(0,0,0)$ and $B=(1,0,0)$, and let the vertices of the red edge be $(0,1,1)$ and $(1,1,1)$.\footnote{This is enough to uniquely determine the rest of the vertices of the cube.} We describe the coordinates of the best path Anthony could take.
+
+      He goes from $(0,0,0)$ to $(0,\frac{2}{3},1)$ to $(\frac{1}{2},1,1)$ to $(1,\frac{2}{3},0)$ then to $(1,0,0)$. The distance in this path is $\sqrt{13}$, so our answer is $13$.
+    author: Dennis Chen 
